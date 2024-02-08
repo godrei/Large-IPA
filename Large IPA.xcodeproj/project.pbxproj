@@ -14,6 +14,7 @@
 		136153012B752205009A085D /* Large_IPATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136153002B752205009A085D /* Large_IPATests.swift */; };
 		1361530B2B752205009A085D /* Large_IPAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361530A2B752205009A085D /* Large_IPAUITests.swift */; };
 		1361530D2B752205009A085D /* Large_IPAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361530C2B752205009A085D /* Large_IPAUITestsLaunchTests.swift */; };
+		1361531F2B7524D6009A085D /* untitled folder.zip in Resources */ = {isa = PBXBuildFile; fileRef = 1361531E2B7524D6009A085D /* untitled folder.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		136153062B752205009A085D /* Large IPAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Large IPAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1361530A2B752205009A085D /* Large_IPAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Large_IPAUITests.swift; sourceTree = "<group>"; };
 		1361530C2B752205009A085D /* Large_IPAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Large_IPAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1361531E2B7524D6009A085D /* untitled folder.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "untitled folder.zip"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		136152EE2B752204009A085D /* Large IPA */ = {
 			isa = PBXGroup;
 			children = (
+				136153192B75234C009A085D /* Resources */,
 				136152EF2B752204009A085D /* Large_IPAApp.swift */,
 				136152F12B752204009A085D /* ContentView.swift */,
 				136152F32B752205009A085D /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				1361530C2B752205009A085D /* Large_IPAUITestsLaunchTests.swift */,
 			);
 			path = "Large IPAUITests";
+			sourceTree = "<group>";
+		};
+		136153192B75234C009A085D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1361531E2B7524D6009A085D /* untitled folder.zip */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				136152F72B752205009A085D /* Preview Assets.xcassets in Resources */,
 				136152F42B752205009A085D /* Assets.xcassets in Resources */,
+				1361531F2B7524D6009A085D /* untitled folder.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +437,7 @@
 				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +467,7 @@
 				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
